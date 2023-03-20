@@ -23,6 +23,25 @@ Quelle: ChatGPT - Ideen der Produkte
 
 -------------------------------------------------------
 
+Inhaltlich wollen wir eine Website mit:
+- reisserische Überschriften von einem imaginären (over-the-top) Produkt
+- Feature-Liste mit Behauptungen, fiktiven User-Quotes
+- Bildern/Darstellungen/Grafiken des Produkts (eigene, Stock-Images, AI-generierte, ...)
+- einer fiktiven Preisstruktur usw.
+- klaren Quellenangabe: Alles darf zusammenkopiert werden, aber bitte entsprechend markieren.
+
+Technisch wollen wir mindestens:
+- eine statische, Single-Page React-Applikation ohne Backend
+- ein over-the-top Design mit Animationen und dynamischen Effekten
+- Scrolling-Effekte (Parallax, Reveal, Animate-on-Scroll)
+- eine selbst "programmierte", animierte SVG-Grafik mit Text
+- ein eigenes Favicon
+- eine eigene CSS-Animation
+  - optional auch komplexere Effekte mit React-Spring oder Framer-Motion
+  - optional werden Resultate automatisch publiziert z.B. mit https://github.com/marketplace/actions/deploy-react-to-github-pages
+
+-------------------------------------------------------
+
 # Selbstevaluation
 
 ## Kimberly
