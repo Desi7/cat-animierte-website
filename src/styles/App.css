@@ -9,7 +9,8 @@ h1 {
     font-size: 150px;
     font-family: "Bahnschrift", sans-serif;
     margin-top: 125px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-shadow: red -5px 0, cyan 5px 0;
 }
 
 h3 {
@@ -20,14 +21,9 @@ h3 {
 }
 
 h4 {
-    font-size: 65px;
+    font-size: 25px;
     font-family: "Berlin Sans FB", sans-serif;
     margin-bottom: 150px;
-}
-
-h1:hover {
-    text-shadow: red -5px 0, cyan 5px 0;
-    transition: 0.2s;
 }
 
 @keyframes colorize {
