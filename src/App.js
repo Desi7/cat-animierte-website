@@ -1,5 +1,5 @@
 import './App.css';
-import {Button, Card, Col, Container, Row} from "react-bootstrap";
+import {Button, Card, Col, Row} from "react-bootstrap";
 import KittyIcon from "./KittyIcon";
 import flippityFish from './images/flippity-fish.jpg';
 import katzenKissen from './images/katzenkissen.jpg';
@@ -87,7 +87,6 @@ export default function App() {
                     <KittyIcon/>
                 </Col>
             </Row>
-            {/*3 Katzenköpfe(svg) mit Text "wow" und Sterne-Augen tanzen am Ende (mit Musik / mit Musiknoten)*/}
 
         </div>
     );
