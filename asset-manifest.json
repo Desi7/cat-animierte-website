@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/cat-animierte-website/static/css/main.a9046c67.css",
+    "main.js": "/cat-animierte-website/static/js/main.25d718b2.js",
+    "static/js/787.fea08613.chunk.js": "/cat-animierte-website/static/js/787.fea08613.chunk.js",
+    "static/media/flippity-fish.jpg": "/cat-animierte-website/static/media/flippity-fish.f1d5902a5f72114933e8.jpg",
+    "static/media/katzenburg.jpg": "/cat-animierte-website/static/media/katzenburg.03f83037c2d6a1f76adb.jpg",
+    "static/media/katzen-badewanne.jpg": "/cat-animierte-website/static/media/katzen-badewanne.2780a79c7b35cbd3de89.jpg",
+    "static/media/katzenkissen.jpg": "/cat-animierte-website/static/media/katzenkissen.aceb8486a7a4b6ba2cc1.jpg",
+    "index.html": "/cat-animierte-website/index.html",
+    "main.a9046c67.css.map": "/cat-animierte-website/static/css/main.a9046c67.css.map",
+    "main.25d718b2.js.map": "/cat-animierte-website/static/js/main.25d718b2.js.map",
+    "787.fea08613.chunk.js.map": "/cat-animierte-website/static/js/787.fea08613.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9046c67.css",
+    "static/js/main.25d718b2.js"
+  ]
+}
