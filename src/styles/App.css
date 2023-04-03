@@ -23,7 +23,6 @@ h3 {
 h4 {
     font-size: 25px;
     font-family: "Berlin Sans FB", sans-serif;
-    margin-bottom: 150px;
 }
 
 @keyframes colorize {
@@ -36,4 +35,8 @@ h4 {
     100% {
         color: orangered;
     }
+}
+
+.container {
+    position: relative;
 }
