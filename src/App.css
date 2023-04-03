@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+h1 {
+  font-size: 50px;
+  font-family: "Bahnschrift", sans-serif;
+}
+
 h1:hover {
   text-shadow: red -3px 0, cyan 3px 0;
   transition: 0.2s;
