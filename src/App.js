@@ -1,21 +1,20 @@
 import './App.css';
 import {Button, Card, Col, Row} from "react-bootstrap";
 import {Bounce, Fade} from "react-awesome-reveal";
-import { ReactComponent as KittyIcon} from "./images/kitty.svg";
+import {ReactComponent as KittyIcon} from "./images/kitty.svg";
 import flippityFish from './images/flippity-fish.jpg';
 import katzenKissen from './images/katzenkissen.jpg';
 import katzenburg from './images/katzenburg.jpg';
 import katzenBadewanne from './images/katzen-badewanne.jpg';
-import katzenToilette from './images/katzen-toilette.jpg';
+import katzenToilette from './images/katzen-toilette.jpg'
 
 export default function App() {
-
     return (
         <div className="container vh-100 d-flex align-items-center">
+            {/*Heftiger Header mit viel bling bling*/}
             <h1 className="text-center">CATIFICATION</h1>
-            <h4>Test</h4>
-            <br/>
 
+            {/*Für unsere Produkte - immer mit Text(innen) und Bild(aussen)*/}
             <div>
                 <Fade direction="left">
                     <Card>
@@ -29,7 +28,7 @@ export default function App() {
                                 <Button disabled={true} style={{backgroundColor: '#2b26c3'}}></Button>
                             </Col>
                         </Row>
-                        <h3>Flippity Fish</h3>
+                        <h3 className="title-right">Flippity Fish</h3>
                     </Card>
                 </Fade>
             </div>
@@ -37,16 +36,16 @@ export default function App() {
             <div>
                 <Fade direction="right">
                     <Card>
-                        <Row>
+                        <Row style={{flexDirection: 'row-reverse'}}>
+                            <Col>
+                                <img alt="katzen-kissen" src={katzenKissen} className="pic"></img>
+                            </Col>
                             <Col style={{alignSelf: "flex-end"}}>
                                 <span>hover here</span>
                                 <Button disabled={true} style={{backgroundColor: '#2b26c3'}}></Button>
                             </Col>
-                            <Col>
-                                <img alt="katzen-kissen" src={katzenKissen} className="pic"></img>
-                            </Col>
                         </Row>
-                        <h3>Cat pillow</h3>
+                        <h3 className="title-left">Cat pillow</h3>
                         <p className="text-left">text....</p>
                     </Card>
                 </Fade>
@@ -65,27 +64,25 @@ export default function App() {
                                 <Button disabled={true} style={{backgroundColor: '#2b26c3'}}></Button>
                             </Col>
                         </Row>
-                        <h3>Cat castle</h3>
+                        <h3 className="title-right">Cat castle</h3>
                     </Card>
                 </Fade>
             </div>
 
             <div>
-                <Fade direction="right">
-                    <Card>
-                        <p className="text-left">text....</p>
-                        <Row>
-                            <Col style={{alignSelf: "flex-end"}}>
-                                <span>hover here</span>
-                                <Button disabled={true} style={{backgroundColor: '#2b26c3'}}></Button>
-                            </Col>
-                            <Col>
-                                <img className="pic" src={katzenBadewanne} alt="Katzenburg"></img>
-                            </Col>
-                        </Row>
-                        <h3>Cat bathtub</h3>
-                    </Card>
-                </Fade>
+                <Card>
+                    <p className="text-left">text....</p>
+                    <Row style={{flexDirection: 'row-reverse'}}>
+                        <Col>
+                            <img className="pic" src={katzenBadewanne} alt="Katzenburg"/>
+                        </Col>
+                        <Col style={{alignSelf: "flex-end"}}>
+                            <span>hover here</span>
+                            <Button disabled={true} style={{backgroundColor: '#2b26c3'}}/>
+                        </Col>
+                    </Row>
+                    <h3 className="title-left">Cat bathtub</h3>
+                </Card>
             </div>
             <div>
                 <Fade direction="left">
@@ -100,7 +97,7 @@ export default function App() {
                                 <Button disabled={true} style={{backgroundColor: '#2b26c3'}}></Button>
                             </Col>
                         </Row>
-                        <h3>Cat toilet</h3>
+                        <h3 className="title-right">Cat toilet</h3>
                     </Card>
                 </Fade>
             </div>
