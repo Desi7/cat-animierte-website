@@ -1,7 +1,7 @@
 import './App.css';
 import {Button, Card, Col, Row} from "react-bootstrap";
 import {Bounce, Fade} from "react-awesome-reveal";
-import KittyIcon from "./KittyIcon";
+import { ReactComponent as KittyIcon} from "./images/kitty.svg";
 import flippityFish from './images/flippity-fish.jpg';
 import katzenKissen from './images/katzenkissen.jpg';
 import katzenburg from './images/katzenburg.jpg';
@@ -13,6 +13,7 @@ export default function App() {
     return (
         <div className="container vh-100 d-flex align-items-center">
             <h1 className="text-center">CATIFICATION</h1>
+            <h4>Test</h4>
             <br/>
 
             <div>
@@ -45,7 +46,7 @@ export default function App() {
                                 <img alt="katzen-kissen" src={katzenKissen} className="pic"></img>
                             </Col>
                         </Row>
-                        <h3>Katzenkissen</h3>
+                        <h3>Cat pillow</h3>
                         <p className="text-left">text....</p>
                     </Card>
                 </Fade>
@@ -64,7 +65,7 @@ export default function App() {
                                 <Button disabled={true} style={{backgroundColor: '#2b26c3'}}></Button>
                             </Col>
                         </Row>
-                        <h3>Katzenburg</h3>
+                        <h3>Cat castle</h3>
                     </Card>
                 </Fade>
             </div>
@@ -82,7 +83,7 @@ export default function App() {
                                 <img className="pic" src={katzenBadewanne} alt="Katzenburg"></img>
                             </Col>
                         </Row>
-                        <h3>Badewanne</h3>
+                        <h3>Cat bathtub</h3>
                     </Card>
                 </Fade>
             </div>
@@ -99,7 +100,7 @@ export default function App() {
                                 <Button disabled={true} style={{backgroundColor: '#2b26c3'}}></Button>
                             </Col>
                         </Row>
-                        <h3>Katzentoilette</h3>
+                        <h3>Cat toilet</h3>
                     </Card>
                 </Fade>
             </div>
