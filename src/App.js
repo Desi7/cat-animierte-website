@@ -10,7 +10,7 @@ export default function App() {
     return (
         <div className="container vh-100 d-flex align-items-center">
             {/*Heftiger Header mit viel bling bling*/}
-            <h1 className="text-center">Hellooo</h1>
+            <h1 className="text-center">CATIFICATION</h1>
 
             {/*Für unsere Produkte - immer mit Text(innen) und Bild(aussen)*/}
             <div data-aos="zoom-out-left">
