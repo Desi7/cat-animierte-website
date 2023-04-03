@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/cat-animierte-website/static/css/main.a9046c67.css",
-    "main.js": "/cat-animierte-website/static/js/main.25d718b2.js",
+    "main.css": "/cat-animierte-website/static/css/main.2465d65b.css",
+    "main.js": "/cat-animierte-website/static/js/main.6f4bf305.js",
     "static/js/787.fea08613.chunk.js": "/cat-animierte-website/static/js/787.fea08613.chunk.js",
     "static/media/flippity-fish.jpg": "/cat-animierte-website/static/media/flippity-fish.f1d5902a5f72114933e8.jpg",
-    "static/media/katzenburg.jpg": "/cat-animierte-website/static/media/katzenburg.03f83037c2d6a1f76adb.jpg",
+    "static/media/katzenburg.jpg": "/cat-animierte-website/static/media/katzenburg.79df60ce8d78feebcd46.jpg",
+    "static/media/katzen-toilette.jpg": "/cat-animierte-website/static/media/katzen-toilette.9abc73396c58e0dcb7cb.jpg",
     "static/media/katzen-badewanne.jpg": "/cat-animierte-website/static/media/katzen-badewanne.2780a79c7b35cbd3de89.jpg",
     "static/media/katzenkissen.jpg": "/cat-animierte-website/static/media/katzenkissen.aceb8486a7a4b6ba2cc1.jpg",
+    "static/media/kitty.svg": "/cat-animierte-website/static/media/kitty.311e081994721229fa60fe8658aa1f86.svg",
     "index.html": "/cat-animierte-website/index.html",
-    "main.a9046c67.css.map": "/cat-animierte-website/static/css/main.a9046c67.css.map",
-    "main.25d718b2.js.map": "/cat-animierte-website/static/js/main.25d718b2.js.map",
+    "main.2465d65b.css.map": "/cat-animierte-website/static/css/main.2465d65b.css.map",
+    "main.6f4bf305.js.map": "/cat-animierte-website/static/js/main.6f4bf305.js.map",
     "787.fea08613.chunk.js.map": "/cat-animierte-website/static/js/787.fea08613.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9046c67.css",
-    "static/js/main.25d718b2.js"
+    "static/css/main.2465d65b.css",
+    "static/js/main.6f4bf305.js"
   ]
 }
