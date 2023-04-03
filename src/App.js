@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import {Col, Row} from "react-bootstrap";
 import {Bounce} from "react-awesome-reveal";
 import {ReactComponent as KittyIcon} from "./images/kitty.svg";
@@ -7,9 +7,9 @@ import catPillow from './images/katzenkissen.jpg';
 import catCastle from './images/katzenburg.jpg';
 import catBathtub from './images/katzen-badewanne.jpg';
 import catToilet from './images/katzen-toilette.jpg'
-import Footer from "./Footer";
-import CardFacingLeft from "./CardFacingLeft";
-import CardFacingRight from "./CardFacingRight";
+import Footer from "./components/Footer";
+import CardFacingLeft from "./components/CardFacingLeft";
+import CardFacingRight from "./components/CardFacingRight";
 
 export default function App() {
     return (

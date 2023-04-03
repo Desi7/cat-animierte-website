@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    font-size: 150px;
+    font-family: "Bahnschrift", sans-serif;
+    margin-top: 125px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: colorize;
+    animation-direction: alternate;
+}
+
+h4 {
+    font-size: 65px;
+    font-family: "Berlin Sans FB", sans-serif;
+    margin-bottom: 150px;
+}
+
+h1:hover {
+    text-shadow: red -5px 0, cyan 5px 0;
+    transition: 0.2s;
+}
+
+@keyframes colorize {
+    0% {
+        color: yellow;
+    }
+    50% {
+        color: orange;
+    }
+    100% {
+        color: orangered;
+    }
+}

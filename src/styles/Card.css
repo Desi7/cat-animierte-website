@@ -1,36 +1,3 @@
-
-
-h1 {
-    font-size: 150px;
-    font-family: "Bahnschrift", sans-serif;
-    margin-top: 125px;
-    margin-bottom: 10px;
-}
-
-h1:hover {
-    text-shadow: red -5px 0, cyan 5px 0;
-    transition: 0.2s;
-}
-
-h4 {
-    font-size: 65px;
-    font-family: "Berlin Sans FB", sans-serif;
-    margin-bottom: 150px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-}
-
-body {
-    background-color: #fff;
-    width: 100vw;
-    height: 100vh;
-}
-
 .container {
     width: 100%;
     height: 100%;
@@ -90,6 +57,7 @@ body {
     font-weight: 700;
     color: rgb(255, 255, 255);
     text-shadow: 0 0 15px rgba(0, 0, 0, .5);
+    transition: 0.2s ease;
 }
 
 .container .card p {
@@ -110,11 +78,6 @@ body {
     transform: scale(15);
     bottom: 18%;
     opacity: 0.5;
-}
-
-.container .card:hover h3 {
-    bottom: 70px;
-    transition: .2s ease;
 }
 
 .container .card:hover p {
@@ -139,21 +102,10 @@ body {
     right: 10%;
 }
 
-@keyframes colorize {
-    0% {
-        color: yellow;
-    }
-    50% {
-        color: orange;
-    }
-    100% {
-        color: orangered;
-    }
+.container .card:hover .title-right {
+    transform: translate(10%);
 }
 
-h3 {
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-name: colorize;
-    animation-direction: alternate;
+.container .card:hover .title-left {
+    transform: translate(-10%, -120%);
 }

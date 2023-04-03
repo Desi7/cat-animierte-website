@@ -1,3 +1,4 @@
+import '../styles/Card.css';
 import {Button, Card, Col, Row} from "react-bootstrap";
 import {Fade} from "react-awesome-reveal";
 
