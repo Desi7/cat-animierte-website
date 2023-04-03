@@ -76,7 +76,17 @@ export default function App() {
                     <h3>Badewanne</h3>
                 </Card>
             </div>
-            <KittyIcon/>
+            <Row>
+                <Col>
+                    <KittyIcon/>
+                </Col>
+                <Col>
+                    <KittyIcon/>
+                </Col>
+                <Col>
+                    <KittyIcon/>
+                </Col>
+            </Row>
             {/*3 Katzenköpfe(svg) mit Text "wow" und Sterne-Augen tanzen am Ende (mit Musik / mit Musiknoten)*/}
 
         </div>
