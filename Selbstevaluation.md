@@ -4,26 +4,24 @@
 
 Befriedigen Sie Ihre Katze mit unseren besten Produkten die wir anzubieten haben:
 
-1. Eine aufblasbare Katzenburg, die leicht zu transportieren und einfach aufzustellen ist, damit Katzen drinnen und
+1. Eine Katzenburg, die leicht zu transportieren und einfach aufzustellen ist, damit Katzen drinnen und
    draußen spielen können.
-2. Ein Klettergerüst, das wie eine gigantische Kratzwelle geformt ist, die sich um die Wände herum windet, damit die
-   Katze klettern, kratzen und sich austoben kann.
-3. Eine Katzenbadewanne, die wie ein kleiner Whirlpool aussieht und mit speziellen Sprudlern und Massagedüsen
+2. Eine Katzenbadewanne, die wie ein kleiner Whirlpool aussieht und mit speziellen Sprudlern und Massagedüsen
    ausgestattet ist, um die Katze zu entspannen und zu beruhigen.
-4. Eine Katzentoilette in Form eines Roboterarms, der automatisch das Katzenklo reinigt und das verschmutzte Katzenstreu
+3. Eine Katzentoilette in Form eines Roboterarms, der automatisch das Katzenklo reinigt und das verschmutzte Katzenstreu
    in den Müll wirft.
-5. Ein aufblasbares Katzenkissen, das mit einer integrierten Heizfunktion ausgestattet ist, um die Katze an kalten Tagen
-   warm zu halten.
-6. Ein speziell geformtes Katzenspielzeug, das wie eine kleine Käseplatte aussieht und aus verschiedenen Materialien
+4. Ein Katzenkissen, das mit einer integrierten Heizfunktion ausgestattet ist, um die Katze an kalten Tagen warm zu
+   halten.
+5. Ein speziell geformtes Katzenspielzeug, das wie eine kleine Käseplatte aussieht und aus verschiedenen Materialien
    besteht, um die Sinne der Katze zu stimulieren und ihr eine Vielzahl von Texturen zum Spielen und Erkunden zu bieten.
-7. Ein interaktives Katzenvideo-Streaming-Portal, das speziell auf die Bedürfnisse von Katzen zugeschnitten ist und den
-   ganzen Tag über lustige Katzenvideos und interaktive Spiele zeigt, um die Katze zu unterhalten und zu stimulieren.
+
 
 Quelle: ChatGPT - Ideen der Produkte
 
 -------------------------------------------------------
 
 Inhaltlich wollen wir eine Website mit:
+
 - reisserische Überschriften von einem imaginären (over-the-top) Produkt
 - Feature-Liste mit Behauptungen, fiktiven User-Quotes
 - Bildern/Darstellungen/Grafiken des Produkts (eigene, Stock-Images, AI-generierte, ...)
@@ -31,14 +29,16 @@ Inhaltlich wollen wir eine Website mit:
 - klaren Quellenangabe: Alles darf zusammenkopiert werden, aber bitte entsprechend markieren.
 
 Technisch wollen wir mindestens:
+
 - eine statische, Single-Page React-Applikation ohne Backend
 - ein over-the-top Design mit Animationen und dynamischen Effekten
 - Scrolling-Effekte (Parallax, Reveal, Animate-on-Scroll)
 - eine selbst "programmierte", animierte SVG-Grafik mit Text
 - ein eigenes Favicon
 - eine eigene CSS-Animation
-  - optional auch komplexere Effekte mit React-Spring oder Framer-Motion
-  - optional werden Resultate automatisch publiziert z.B. mit https://github.com/marketplace/actions/deploy-react-to-github-pages
+    - optional auch komplexere Effekte mit React-Spring oder Framer-Motion
+    - optional werden Resultate automatisch publiziert z.B.
+      mit https://github.com/marketplace/actions/deploy-react-to-github-pages
 
 -------------------------------------------------------
 
