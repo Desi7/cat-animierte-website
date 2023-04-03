@@ -5,7 +5,7 @@
     flex-direction: column;
 }
 
-.container .card {
+.card {
     position: relative;
     width: 400px;
     padding: 15px;
@@ -13,46 +13,34 @@
     overflow: hidden;
     margin-bottom: 15px;
     border-radius: 20px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
-.container .card span {
-    z-index: 99;
-    position: absolute;
-    top: 60px;
-    color: #333;
-    font-size: 12px;
-    letter-spacing: 1px;
-    writing-mode: vertical-lr;
-    transition: .2s ease;
-    opacity: 0.7;
-}
-
-.container .card .pic {
+.card .pic {
     z-index: 100;
     width: 295px;
     background-size: cover;
     border-radius: 12px;
-    filter: grayscale(90%);
-    transition: .3s ease;
+    filter: grayscale(100%);
+    transition: 0.3s ease;
 }
 
-.container .card button {
+.card button {
     z-index: 200;
     width: 30px;
     height: 30px;
     border: none;
     border-radius: 100%;
     outline: none;
+    transition: 0.3s ease;
     opacity: 1;
-    transition: .3s ease;
 }
 
-.container .card h3 {
+.card h3 {
     z-index: 250;
     position: absolute;
     bottom: 25px;
-    right: 130px;
+    left: 25%;
     font-size: 35px;
     font-weight: 700;
     color: rgb(255, 255, 255);
@@ -60,7 +48,7 @@
     transition: 0.2s ease;
 }
 
-.container .card p {
+.card p {
     z-index: 250;
     position: absolute;
     bottom: 10%;
@@ -71,25 +59,25 @@
     font-size: 12px;
     text-align: right;
     letter-spacing: 1px;
-    transition: .2s ease;
+    transition: 0.2s ease;
 }
 
-.container .card:hover button {
+.card:hover button {
     transform: scale(15);
     bottom: 18%;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
-.container .card:hover p {
+.card:hover p {
     opacity: 1;
     right: 60px;
 }
 
-.container .card:hover span {
+.card:hover span {
     opacity: 0;
 }
 
-.container .card:hover .pic {
+.card:hover .pic {
     filter: grayscale(0);
     width: 310px;
 }
@@ -102,10 +90,12 @@
     right: 10%;
 }
 
-.container .card:hover .title-right {
-    transform: translate(10%);
+.card:hover .title-right {
+    left: 180px;
+    bottom: 70px;
 }
 
-.container .card:hover .title-left {
-    transform: translate(-10%, -120%);
+.card:hover .title-left {
+    left: 30px;
+    bottom: 70px;
 }

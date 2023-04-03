@@ -9,15 +9,14 @@ export default function CardFacingLeft({title, text, image, colorOfButton}) {
                 <Card>
                     <Row style={{flexDirection: 'row-reverse'}}>
                         <Col>
-                            <img alt={title} src={image} className="pic"></img>
+                            <img className="pic" alt={title} src={image}/>
                         </Col>
                         <Col style={{alignSelf: "flex-end"}}>
-                            <span>hover here</span>
-                            <Button disabled={true} style={{backgroundColor: colorOfButton}}></Button>
+                            <Button style={{backgroundColor: colorOfButton}}/>
                         </Col>
                     </Row>
-                    <h3 className="title-left">{title}</h3>
                     <p className="text-left">{text}</p>
+                    <h3 className="title-left">{title}</h3>
                 </Card>
             </Fade>
         </div>

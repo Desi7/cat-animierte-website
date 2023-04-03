@@ -9,11 +9,10 @@ export default function CardFacingRight({title, text, image, colorOfButton}) {
                 <Card>
                     <Row>
                         <Col>
-                            <img className="pic" src={image} alt={title}></img>
+                            <img className="pic" src={image} alt={title}/>
                         </Col>
                         <Col style={{alignSelf: "flex-end"}}>
-                            <span>hover here</span>
-                            <Button disabled={true} style={{backgroundColor: colorOfButton}}></Button>
+                            <Button style={{backgroundColor: colorOfButton}}/>
                         </Col>
                     </Row>
                     <p className="text-right">{text}</p>
