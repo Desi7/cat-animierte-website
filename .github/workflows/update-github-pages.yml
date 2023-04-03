@@ -13,8 +13,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 14.x
-      - run: npm install
-      - run: npm run deploy -- -m "Deploy React App to Pages"
       - run: |
           git config --global user.name "Bobby Ross"
-          git config --global user.email "kimberly.moorhouse@lernende.bbw.ch"
+          git config --global user.email "bobby@ross.com"
+      - run: npm install
+      - run: npm run deploy -- -m "Deploy React App to Pages"
