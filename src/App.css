@@ -1,146 +1,161 @@
 .App {
-  text-align: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 150px;
+    font-family: "Bahnschrift", sans-serif;
+    margin-top: 125px;
+    margin-bottom: 10px;
 }
 
 h1:hover {
-  text-shadow: red -3px 0, cyan 3px 0;
-  transition: 0.2s;
+    text-shadow: red -5px 0, cyan 5px 0;
+    transition: 0.2s;
+}
+
+h4 {
+    font-size: 65px;
+    font-family: "Berlin Sans FB", sans-serif;
+    margin-bottom: 150px;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
+
 body {
-  background-color: #fff;
-  width: 100vw;
-  height: 100vh;
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
 }
+
 .container {
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
 }
+
 .container .card {
-  position: relative;
-  width: 400px;
-  padding: 15px;
-  background-color: #fff;
-  overflow: hidden;
-  margin-bottom: 15px;
-  border-radius: 20px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+    position: relative;
+    width: 400px;
+    padding: 15px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
 }
 
 .container .card span {
-  z-index: 99;
-  position: absolute;
-  top: 60px;
-  color: #333;
-  font-size: 12px;
-  letter-spacing: 1px;
-  writing-mode: vertical-lr;
-  transition: 0.2s ease;
-  opacity: 0.7;
+    z-index: 99;
+    position: absolute;
+    top: 60px;
+    color: #333;
+    font-size: 12px;
+    letter-spacing: 1px;
+    writing-mode: vertical-lr;
+    transition: .2s ease;
+    opacity: 0.7;
 }
+
 .container .card .pic {
-  z-index: 100;
-  width: 295px;
-  background-size: cover;
-  border-radius: 12px;
-  filter: grayscale(100%);
-  transition: .3s ease;
+    z-index: 100;
+    width: 295px;
+    background-size: cover;
+    border-radius: 12px;
+    filter: grayscale(90%);
+    transition: .3s ease;
 }
+
 .container .card button {
-  z-index: 200;
-  width: 30px;
-  height: 30px;
-  border: none;
-  border-radius: 100%;
-  outline: none;
-  opacity: 1;
-  transition: 0.3s ease;
+    z-index: 200;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 100%;
+    outline: none;
+    opacity: 1;
+    transition: .3s ease;
 }
 
 .container .card h3 {
-  z-index: 250;
-  position: absolute;
-  font-size: 35px;
-  bottom: 100px;
-  font-weight: 700;
-  color: rgb(255, 255, 255);
-  text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
-  transition: 0.2s ease;
-  transform: translate(50%, 200%);
+    z-index: 250;
+    position: absolute;
+    bottom: 25px;
+    right: 130px;
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px rgba(0, 0, 0, .5);
 }
+
 .container .card p {
-  z-index: 250;
-  position: absolute;
-  bottom: 15%;
-  right: 15%;
-  width: 150px;
-  color: #030303;
-  opacity: 0;
-  font-size: 12px;
-  text-align: right;
-  letter-spacing: 1px;
-  transition: 0.2s ease;
+    z-index: 250;
+    position: absolute;
+    bottom: 10%;
+    right: 15%;
+    width: 150px;
+    color: #030303;
+    opacity: 0;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 1px;
+    transition: .2s ease;
 }
+
 .container .card:hover button {
-  transform: scale(15);
-  bottom: 18%;
-  opacity: 0.5;
+    transform: scale(15);
+    bottom: 18%;
+    opacity: 0.5;
 }
+
 .container .card:hover h3 {
-  bottom: 70px;
-  transition: .2s ease;
+    bottom: 70px;
+    transition: .2s ease;
 }
+
 .container .card:hover p {
-  opacity: 1;
-  right: 60px;
+    opacity: 1;
+    right: 60px;
 }
+
 .container .card:hover span {
-  opacity: 0;
+    opacity: 0;
 }
+
 .container .card:hover .pic {
-  filter: grayscale(0);
-  width: 310px;
+    filter: grayscale(0);
+    width: 310px;
 }
 
 .text-left {
-  left: -15%;
+    left: -15%;
 }
 
 .text-right {
-  right: 10%;
+    right: 10%;
 }
 
 @keyframes colorize {
-  0% {
-    color: yellow;
-  }
-  50% {
-    color: orange;
-  }
-  100% {
-    color: orangered;
-  }
+    0% {
+        color: yellow;
+    }
+    50% {
+        color: orange;
+    }
+    100% {
+        color: orangered;
+    }
 }
 
 h3 {
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-name: colorize;
-  animation-direction: alternate;
-}
-
-.container .card:hover .title-left {
-  transform: translate(10%, -50%);
-}
-
-.container .card:hover .title-right {
-  transform: translate(90%, -50%);
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: colorize;
+    animation-direction: alternate;
 }

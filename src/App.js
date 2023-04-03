@@ -7,14 +7,14 @@ import katzenKissen from './images/katzenkissen.jpg';
 import katzenburg from './images/katzenburg.jpg';
 import katzenBadewanne from './images/katzen-badewanne.jpg';
 import katzenToilette from './images/katzen-toilette.jpg'
+import Footer from "./Footer";
 
 export default function App() {
     return (
         <div className="container vh-100 d-flex align-items-center">
-            {/*Heftiger Header mit viel bling bling*/}
             <h1 className="text-center">CATIFICATION</h1>
+            <h4>Test</h4>
 
-            {/*Für unsere Produkte - immer mit Text(innen) und Bild(aussen)*/}
             <div>
                 <Fade direction="left">
                     <Card>
@@ -114,6 +114,8 @@ export default function App() {
                     </Col>
                 </Row>
             </Bounce>
+
+            <Footer/>
         </div>
     );
 }
