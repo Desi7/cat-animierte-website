@@ -1,22 +1,22 @@
 import './App.css';
 import {Button, Card, Col, Row} from "react-bootstrap";
-import {Fade, Zoom} from "react-reveal";
+import {Bounce, Fade} from "react-awesome-reveal";
 import KittyIcon from "./KittyIcon";
 import flippityFish from './images/flippity-fish.jpg';
 import katzenKissen from './images/katzenkissen.jpg';
 import katzenburg from './images/katzenburg.jpg';
 import katzenBadewanne from './images/katzen-badewanne.jpg';
 import katzenToilette from './images/katzen-toilette.jpg';
-import {Parallax, ParallaxLayer} from '@react-spring/parallax'
 
 export default function App() {
 
     return (
         <div className="container vh-100 d-flex align-items-center">
             <h1 className="text-center">CATIFICATION</h1>
+            <br/>
 
             <div>
-                <Fade left>
+                <Fade direction="left">
                     <Card>
                         <p className="text-right">text....</p>
                         <Row>
@@ -34,7 +34,7 @@ export default function App() {
             </div>
 
             <div>
-                <Fade right>
+                <Fade direction="right">
                     <Card>
                         <Row>
                             <Col style={{alignSelf: "flex-end"}}>
@@ -52,7 +52,7 @@ export default function App() {
             </div>
 
             <div>
-                <Fade left>
+                <Fade direction="left">
                     <Card>
                         <p className="text-right">text....</p>
                         <Row>
@@ -70,7 +70,7 @@ export default function App() {
             </div>
 
             <div>
-                <Fade right>
+                <Fade direction="right">
                     <Card>
                         <p className="text-left">text....</p>
                         <Row>
@@ -87,7 +87,7 @@ export default function App() {
                 </Fade>
             </div>
             <div>
-                <Fade left>
+                <Fade direction="left">
                     <Card>
                         <p className="text-right">text....</p>
                         <Row>
@@ -103,7 +103,7 @@ export default function App() {
                     </Card>
                 </Fade>
             </div>
-            <Zoom top>
+            <Bounce>
                 <Row>
                     <Col>
                         <KittyIcon/>
@@ -115,7 +115,7 @@ export default function App() {
                         <KittyIcon/>
                     </Col>
                 </Row>
-            </Zoom>
+            </Bounce>
         </div>
     );
 }

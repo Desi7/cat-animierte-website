@@ -121,3 +121,31 @@ body {
 .text-right {
   right: 10%;
 }
+
+@keyframes colorize {
+  0% {
+    color: yellow;
+  }
+  50% {
+    color: orange;
+  }
+  100% {
+    color: orangered;
+  }
+}
+
+h3 {
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-name: colorize;
+  animation-direction: alternate;
+}
+
+KittyIcon {
+  animation: rolling 5s 1s infinite alternate ease-in-out;
+}
+
+@keyframes rolling {
+  from { transform: translate(0) }
+  to   { transform: translate(calc(100% - 100px)) }
+}
