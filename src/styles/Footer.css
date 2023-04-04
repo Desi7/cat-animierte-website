@@ -1,0 +1,16 @@
+.img-kitty {
+    height: 110px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.img-kitty:hover {
+    transform: scaleX(-1);
+}
+
+.hover {
+    font-size: 15px;
+    font-style: italic;
+    font-family: "Ink Free", sans-serif;
+}

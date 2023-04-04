@@ -26,7 +26,7 @@ export default function App() {
                 every cat deserves the very best, which is why we only stock products that are safe, healthy, and
                 beneficial for your furry companions. So why not take a look around and see what we have to offer?
                 <br/>We're sure you'll find something that your feline friend will love!</h4>
-                <Sparkles color={'#e306f3'} overflowPx={20} minSize={10} maxSize={15} fadeOutSpeed={10}
+                <Sparkles color={'#e306f3'} overflowPx={20} minSize={18} maxSize={23} fadeOutSpeed={10}
                           flicker={false}/>
                 {/*Sparkles from https://www.npmjs.com/package/react-sparkle*/}
             </span>

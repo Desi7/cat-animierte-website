@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body {
+    background-color: #00b4d8;
+    overflow: hidden;
+    height: 100vh;
+
+}
+.container {
+    position: relative;
+    width:100%;
+    height: 100%;
+    top:0;
+}
+
+.text {
+    position: relative;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 900;
+    font-size:80px;
+    -webkit-text-stroke: 2px rgba(255,255,255,0.6);
+    -webkit-text-fill-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-shadow: 2px 2px rgba(255,255,255,0.1);
+}
+.bubbles {
+    position: fixed;
+    opacity:0.9;
+    z-index:1;
+}
+
+.bubble1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    box-shadow:  inset -7px -7px 15px rgba(255, 255, 255, 0.3), 5px 5px 3px rgba(0,0,0,0.07);
+    overflow:hidden;
+    animation: up 12s linear infinite;
+    top:600px;
+    left:1000px;
+
+}
+
+.bubble1:after {
+    content:"";
+    position: absolute;
+    background-color: rgba(255,255,255,0.4);
+    border-radius:50%;
+    width:25px;
+    height:50px;
+    left:15px;
+    top:12px;
+    transform: rotate(25deg);
+    filter: blur(8px);
+}
+
+.bubble2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    box-shadow:  inset -7px -7px 15px rgba(255, 255, 255, 0.3), 5px 5px 3px rgba(0,0,0,0.07);
+    overflow:hidden;
+    left:800px;
+    top: 700px;
+    animation: up 16s linear infinite;
+}
+
+.bubble2:after {
+    content:"";
+    position: absolute;
+    background-color: rgba(255,255,255,0.6);
+    border-radius:50%;
+    width:12.5px;
+    height:25px;
+    left:15px;
+    top:7px;
+    transform: rotate(25deg);
+    filter: blur(8px);
+}
+
+.bubble3 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    box-shadow:  inset -7px -7px 15px rgba(255, 255, 255, 0.3), 5px 5px 3px rgba(0,0,0,0.07);
+    overflow:hidden;
+    left:1200px;
+    top:800px;
+    animation: up 5s linear infinite;
+}
+
+.bubble3:after {
+    content:"";
+    position: absolute;
+    background-color: rgba(255,255,255,0.4);
+    border-radius:50%;
+    width:20px;
+    height:40px;
+    left:15px;
+    top:10px;
+    transform: rotate(25deg);
+    filter: blur(7px);
+}
+
+.bubble4 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    box-shadow:  inset -5px -5px 8px rgba(255, 255, 255, 0.3), 5px 5px 3px rgba(0,0,0,0.07);
+    overflow:hidden;
+    animation: up 7s linear infinite;
+    left:800px;
+    top: 700px;
+}
+
+.bubble4:after {
+    content:"";
+    position: absolute;
+    background-color: rgba(255,255,255,0.8);
+    border-radius:50%;
+    width:10px;
+    height:8px;
+    left:7px;
+    top:5px;
+    transform: rotate(25deg);
+    filter: blur(5px);
+}
+
+.bubble5 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    box-shadow:  inset -7px -7px 15px rgba(255, 255, 255, 0.3), 5px 5px 3px rgba(0,0,0,0.07);
+    overflow:hidden;
+    left:350px;
+    top:700px;
+    animation: up 13s linear infinite;
+}
+
+.bubble5:after {
+    content:"";
+    position: absolute;
+    background-color: rgba(255,255,255,0.4);
+    border-radius:50%;
+    width:22px;
+    height:48px;
+    left:15px;
+    top:12px;
+    transform: rotate(25deg);
+    filter: blur(7px);
+}
+
+@keyframes up {
+    100% { transform: translateY(-1000px);}
+}
+
+.bubble6 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    box-shadow:  inset -7px -7px 15px rgba(255, 255, 255, 0.3), 5px 5px 3px rgba(0,0,0,0.07);
+    overflow:hidden;
+    left:750px;
+    top:700px;
+    animation: up 15s linear infinite;
+}
+
+.bubble6:after {
+    content:"";
+    position: absolute;
+    background-color: rgba(255,255,255,0.4);
+    border-radius:50%;
+    width:22px;
+    height:48px;
+    left:15px;
+    top:12px;
+    transform: rotate(25deg);
+    filter: blur(7px);
+}
+
+.bubble7 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    box-shadow:  inset -7px -7px 15px rgba(255, 255, 255, 0.3), 5px 5px 3px rgba(0,0,0,0.07);
+    overflow:hidden;
+    left:950px;
+    top: 700px;
+    animation: up 10s linear infinite;
+}
+
+.bubble7:after {
+    content:"";
+    position: absolute;
+    background-color: rgba(255,255,255,0.6);
+    border-radius:50%;
+    width:12.5px;
+    height:25px;
+    left:15px;
+    top:7px;
+    transform: rotate(25deg);
+    filter: blur(8px);
+}
+
+.bubble8 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    box-shadow:  inset -7px -7px 15px rgba(255, 255, 255, 0.3), 5px 5px 3px rgba(0,0,0,0.07);
+    overflow:hidden;
+    left:1600px;
+    top:800px;
+    animation: up 8s linear infinite;
+}
+
+.bubble8:after {
+    content:"";
+    position: absolute;
+    background-color: rgba(255,255,255,0.4);
+    border-radius:50%;
+    width:20px;
+    height:40px;
+    left:15px;
+    top:10px;
+    transform: rotate(25deg);
+    filter: blur(7px);
+}
+
+.bubble9 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    box-shadow:  inset -5px -5px 8px rgba(255, 255, 255, 0.3), 5px 5px 3px rgba(0,0,0,0.07);
+    overflow:hidden;
+    animation: up 17s linear infinite;
+    left:600px;
+    top: 700px;
+}
+
+.bubble9:after {
+    content:"";
+    position: absolute;
+    background-color: rgba(255,255,255,0.8);
+    border-radius:50%;
+    width:10px;
+    height:8px;
+    left:7px;
+    top:5px;
+    transform: rotate(25deg);
+    filter: blur(5px);
+}
+
+.bubble10 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 50%;
+    box-shadow:  inset -7px -7px 15px rgba(255, 255, 255, 0.3), 5px 5px 3px rgba(0,0,0,0.07);
+    overflow:hidden;
+    left:1350px;
+    top:700px;
+    animation: up 4s linear infinite;
+}
+
+.bubble10:after {
+    content:"";
+    position: absolute;
+    background-color: rgba(255,255,255,0.4);
+    border-radius:50%;
+    width:22px;
+    height:48px;
+    left:15px;
+    top:12px;
+    transform: rotate(25deg);
+    filter: blur(7px);
+}
