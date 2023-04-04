@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cat-animierte-website/static/css/main.2465d65b.css",
-    "main.js": "/cat-animierte-website/static/js/main.6f4bf305.js",
+    "main.css": "/cat-animierte-website/static/css/main.2ea3f3bf.css",
+    "main.js": "/cat-animierte-website/static/js/main.d0a9b1b3.js",
     "static/js/787.fea08613.chunk.js": "/cat-animierte-website/static/js/787.fea08613.chunk.js",
     "static/media/flippity-fish.jpg": "/cat-animierte-website/static/media/flippity-fish.f1d5902a5f72114933e8.jpg",
     "static/media/katzenburg.jpg": "/cat-animierte-website/static/media/katzenburg.79df60ce8d78feebcd46.jpg",
@@ -10,12 +10,12 @@
     "static/media/katzenkissen.jpg": "/cat-animierte-website/static/media/katzenkissen.aceb8486a7a4b6ba2cc1.jpg",
     "static/media/kitty.svg": "/cat-animierte-website/static/media/kitty.311e081994721229fa60fe8658aa1f86.svg",
     "index.html": "/cat-animierte-website/index.html",
-    "main.2465d65b.css.map": "/cat-animierte-website/static/css/main.2465d65b.css.map",
-    "main.6f4bf305.js.map": "/cat-animierte-website/static/js/main.6f4bf305.js.map",
+    "main.2ea3f3bf.css.map": "/cat-animierte-website/static/css/main.2ea3f3bf.css.map",
+    "main.d0a9b1b3.js.map": "/cat-animierte-website/static/js/main.d0a9b1b3.js.map",
     "787.fea08613.chunk.js.map": "/cat-animierte-website/static/js/787.fea08613.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2465d65b.css",
-    "static/js/main.6f4bf305.js"
+    "static/css/main.2ea3f3bf.css",
+    "static/js/main.d0a9b1b3.js"
   ]
 }
