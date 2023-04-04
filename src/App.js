@@ -33,6 +33,9 @@ export default function App() {
 
             <div style={{marginBottom: "150px"}}/>
 
+            <h2>OUR PRODUCTS</h2>
+            <div style={{marginBottom: "40px"}}/>
+
             <CardFacingRight title="Flippity Fish" text="Flippity Fish: a durable, motion-activated cat toy resembling a fish. Rechargeable, detachable motor makes for easy cleaning. Loved worldwide." image={flippityFish} colorOfButton='#2b26c3' price="24.50"/>
             <CardFacingLeft title="Cat Pillow" image={catPillow} text="A pink, fluffy cat pillow is a soft and cozy cushion designed in the shape of a cat, featuring fluffy faux fur and a cute pink color" colorOfButton='#2b26c3' price="15.95"/>
             <CardFacingRight title="Cat Castle" image={catCastle} text="A lightweight, eco-friendly cat castle made of carton with multiple levels and tunnels for feline fun." colorOfButton='#2b26c3' price="59.50"/>
