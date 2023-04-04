@@ -2,7 +2,7 @@ import '../styles/Card.css';
 import {Button, Card, Col, Row} from "react-bootstrap";
 import {Fade} from "react-awesome-reveal";
 
-export default function CardFacingRight({title, text, image, colorOfButton}) {
+export default function CardFacingRight({title, text, image, colorOfButton, price}) {
     return (
         <div>
             <Fade direction="left">
@@ -15,8 +15,9 @@ export default function CardFacingRight({title, text, image, colorOfButton}) {
                             <Button style={{backgroundColor: colorOfButton}}/>
                         </Col>
                     </Row>
-                    <p className="text-right">{text}</p>
                     <h3 className="title-right">{title}</h3>
+                    <p className="text-right">{text}</p>
+                    <p className="price text-right">Price: {price} Fr.</p>
                 </Card>
             </Fade>
         </div>

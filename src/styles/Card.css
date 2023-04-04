@@ -39,6 +39,7 @@
 .card h3 {
     z-index: 250;
     position: absolute;
+    top: 80%;
     bottom: 25px;
     left: 25%;
     font-size: 35px;
@@ -51,15 +52,23 @@
 .card p {
     z-index: 250;
     position: absolute;
-    bottom: 10%;
-    right: 15%;
-    width: 150px;
-    color: #030303;
+    bottom: 15%;
+    width: 190px;
+    color: #ffffff;
     opacity: 0;
     font-size: 12px;
     text-align: right;
     letter-spacing: 1px;
-    transition: 0.2s ease;
+    transition: 0.4s ease;
+}
+
+.card .price {
+    z-index: 250;
+    bottom: 7%;
+    opacity: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: 0.4s ease;
 }
 
 .card:hover button {
@@ -70,7 +79,7 @@
 
 .card:hover p {
     opacity: 1;
-    right: 60px;
+    right: 50px;
 }
 
 .card:hover span {
@@ -83,19 +92,22 @@
 }
 
 .text-left {
-    left: -15%;
+    left: 3%;
+    text-align: left;
 }
 
 .text-right {
-    right: 10%;
+    right: -10%;
 }
 
 .card:hover .title-right {
-    left: 180px;
-    bottom: 70px;
+    left: 30px;
+    bottom: 0;
+    top: 40px;
 }
 
 .card:hover .title-left {
-    left: 30px;
-    bottom: 70px;
+    left: 180px;
+    bottom: 0;
+    top: 40px;
 }
