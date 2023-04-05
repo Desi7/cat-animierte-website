@@ -40,9 +40,9 @@ export default function Footer() {
 
                         <ul className='list-unstyled mb-0'>
                             <li>
-                                <a href='#!' className='text-dark'
+                                <a href='https://codepen.io/jupago/pen/GPxqLX' className='text-dark'
                                    style={{backgroundColor: "#9cfcf8", borderRadius: "5px"}}>
-                                    Link 1 {/*TODO*/}
+                                    User-Quotes
                                 </a>
                             </li>
                             <li>
