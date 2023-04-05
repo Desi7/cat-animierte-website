@@ -38,4 +38,6 @@
         </animateTransform>
     </g>
 
+    <text x="-90" y="40" fill="forestgreen" font-size="40">MIAU!</text>
+
 </svg>
