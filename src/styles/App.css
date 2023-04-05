@@ -12,6 +12,17 @@ h1 {
     margin-bottom: 20px;
     text-shadow: red -5px 0, cyan 5px 0;
 }
+h2 {
+    font-family: 'Calligraffitti', cursive;
+    font-weight: 700;
+    font-size: 75px;
+    color: #110606;
+    text-shadow: 5px 5px 0 #ffe0a3,
+    10px 10px 0 orange,
+    15px 15px 0 pink,
+    20px 20px 0 hotpink,
+    25px 25px 0 blueviolet;
+}
 
 h3 {
     animation-duration: 3s;

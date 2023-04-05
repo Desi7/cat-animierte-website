@@ -36,11 +36,11 @@ export default function App() {
             <h2>OUR PRODUCTS</h2>
             <div style={{marginBottom: "40px"}}/>
 
-            <CardFacingRight title="Flippity Fish" text="Flippity Fish: a durable, motion-activated cat toy resembling a fish. Rechargeable, detachable motor makes for easy cleaning. Loved worldwide." image={flippityFish} colorOfButton='#2b26c3' price="24.50"/>
-            <CardFacingLeft title="Cat Pillow" image={catPillow} text="A pink, fluffy cat pillow is a soft and cozy cushion designed in the shape of a cat, featuring fluffy faux fur and a cute pink color" colorOfButton='#2b26c3' price="15.95"/>
-            <CardFacingRight title="Cat Castle" image={catCastle} text="A lightweight, eco-friendly cat castle made of carton with multiple levels and tunnels for feline fun." colorOfButton='#2b26c3' price="59.50"/>
-            <CardFacingLeft title="Cat bathtub" image={catBathtub} text="Cat bathtub: a small-sized, non-slip tub with built-in soap holders and spray nozzles designed to keep cats clean and healthy." colorOfButton='#2b26c3' price="35.95"/>
-            <CardFacingRight title="Cat toilet" image={catToilet} text="High-tech litter boxes that use sensors and self-cleaning systems to eliminate the need for daily scooping." colorOfButton='#2b26c3' price="225.95"/>
+            <CardFacingRight title="Flippity Fish" text="Flippity Fish: a durable, motion-activated cat toy resembling a fish. Rechargeable, detachable motor makes for easy cleaning. Loved worldwide." image={flippityFish} colorOfButton='#d0001b' price="24.50"/>
+            <CardFacingLeft title="Cat Pillow" image={catPillow} text="A pink, fluffy cat pillow is a soft and cozy cushion designed in the shape of a cat, featuring fluffy faux fur and a cute pink color" colorOfButton='#ff3403' price="15.95"/>
+            <CardFacingRight title="Cat Castle" image={catCastle} text="A lightweight, eco-friendly cat castle made of carton with multiple levels and tunnels for feline fun." colorOfButton='#ff4f00' price="59.50"/>
+            <CardFacingLeft title="Cat bathtub" image={catBathtub} text="Cat bathtub: a small-sized, non-slip tub with built-in soap holders and spray nozzles designed to keep cats clean and healthy." colorOfButton='#fd5800' price="35.95"/>
+            <CardFacingRight title="Cat toilet" image={catToilet} text="High-tech litter boxes that use sensors and self-cleaning systems to eliminate the need for daily scooping." colorOfButton='#ff8c00' price="225.95"/>
 
             <Bounce>
                 <Row>
